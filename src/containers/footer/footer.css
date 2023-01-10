@@ -1,0 +1,31 @@
+.top-food__footer {
+    background-color: var(--color-footer);
+    color: var(--color-text-2);
+}
+
+.top-food__footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-food__footer-content__links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .top-food__footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .top-food__footer-content__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
