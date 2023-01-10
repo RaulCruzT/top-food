@@ -1,0 +1,114 @@
+.top-food__menu {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.top-food__menu-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 3rem;
+}
+
+.top-food__menu-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top-foog__menu-cards__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.top-foog__menu-cards__content-card {
+    max-width: 350px;
+}
+
+.top-foog__menu-cards__content-card__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.top-foog__menu-cards__content-card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+img {
+    max-width: 350px;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    .top-food__menu {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .top-food__menu-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 2rem;
+        align-self: center;
+        text-align: center;
+    }
+
+    .top-foog__menu-cards__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .top-foog__menu-cards__content-card {
+        max-width: 250px;
+    }
+    
+    .top-foog__menu-cards__content-card__title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .top-foog__menu-cards__content-card__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    img {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .top-food__menu {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .top-food__menu-title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 3rem;
+    }
+
+    .top-foog__menu-cards__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .top-foog__menu-cards__content-card {
+        max-width: 300px;
+    }
+
+    img {
+        max-width: 300px;
+    }
+}
