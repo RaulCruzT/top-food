@@ -2,7 +2,11 @@ import './contact.css';
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <div className='top-food__contact section__padding'>
+            <div className="top-food__contact-content">
+                Contact
+            </div>
+        </div>
     )
 }
 

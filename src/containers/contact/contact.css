@@ -1,0 +1,15 @@
+.top-food__contact {
+    background-color: var(--color-bg-2);
+}
+
+.top-food__contact-content {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+    .top-food__contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
