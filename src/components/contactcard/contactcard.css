@@ -1,0 +1,41 @@
+.top-food__contactCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 1rem;
+}
+
+.top-food__contactCard-icon {
+    background-color: var(--color-icon-container);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-food__contactCard-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .top-food__contactCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+        gap: 1rem;
+    }
+
+    .top-food__contactCard-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
