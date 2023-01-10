@@ -2,7 +2,9 @@ import './header.css';
 
 const Header = () => {
     return (
-        <div>Header</div>
+        <div className='top-food__header'>
+            Header
+        </div>
     )
 }
 

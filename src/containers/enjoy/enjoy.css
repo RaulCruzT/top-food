@@ -1,22 +1,29 @@
 .top-food__enjoy {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.top-food__enjoy-title {
+.top-food__enjoy-container {
+    width: 1114px;
+}
+
+.top-food__enjoy-container__title {
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
     margin-bottom: 6rem;
 }
 
-.top-food__enjoy-images {
+.top-food__enjoy-container__images {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.top-foog__enjoy-images__content {
+.top-food__enjoy-container__images-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -32,7 +39,11 @@ img {
         padding-bottom: 2rem;
     }
 
-    .top-food__enjoy-title {
+    .top-food__enjoy-container {
+        width: 250px;
+    }
+
+    .top-food__enjoy-container__title {
         font-weight: 700;
         font-size: 22px;
         line-height: 34px;
@@ -41,7 +52,7 @@ img {
         text-align: center;
     }
 
-    .top-foog__enjoy-images__content {
+    .top-food__enjoy-container__images-content {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -58,14 +69,18 @@ img {
         padding-bottom: 3rem;
     }
 
-    .top-food__enjoy-title {
+    .top-food__enjoy-container {
+        width: 632px;
+    }
+
+    .top-food__enjoy-container__title {
         font-weight: 700;
         font-size: 28px;
         line-height: 40px;
         margin-bottom: 4rem;
     }
 
-    .top-foog__enjoy-images__content {
+    .top-food__enjoy-container__images-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
