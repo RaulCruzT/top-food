@@ -9,7 +9,7 @@ import restaurant6 from '../../assets/restaurant-6.jpg';
 
 const Enjoy = () => {
     return (
-        <div className='top-food__enjoy section__padding'>
+        <div className='top-food__enjoy section__padding' id='enjoy'>
             <div className='top-food__enjoy-title'>Enjoy a great atmosphere!</div>
             <div className="top-food__enjoy-images">
                 <div className='top-foog__enjoy-images__content'>

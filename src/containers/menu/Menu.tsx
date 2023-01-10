@@ -9,7 +9,7 @@ import menu6 from '../../assets/menu-6.jpg';
 
 const Menu = () => {
     return (
-        <div className='top-food__menu section__padding'>
+        <div className='top-food__menu section__padding' id='menu'>
             <div className='top-food__menu-title'>Menu</div>
             <div className="top-food__menu-cards">
                 <div className='top-foog__menu-cards__content'>

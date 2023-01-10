@@ -3,7 +3,7 @@ import './awards.css';
 
 const Awards = () => {
     return (
-        <div className='top-food__awards section__padding'>
+        <div className='top-food__awards section__padding' id='awards'>
             <div className="top-food__awards-title">Awards</div>
             <div className="top-food__awards-content">
                 <div className="top-food__awards-content__grid">
