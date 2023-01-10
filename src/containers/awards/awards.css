@@ -1,0 +1,67 @@
+.top-food__awards {
+    background-color: var(--color-bg-2);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.top-food__awards-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.top-food__awards-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top-food__awards-content__grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+    .top-food__awards {
+        background-color: var(--color-bg-2);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .top-food__awards-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .top-food__awards-content__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .top-food__awards {
+        background-color: var(--color-bg-2);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .top-food__awards-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .top-food__awards-content__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
