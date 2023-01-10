@@ -3,7 +3,7 @@ import chef from '../../assets/chef-1.png';
 
 const Team = () => {
     return (
-        <div className='top-food__team'>
+        <div className='top-food__team' id='team'>
             <div className='top-food__team-content'>
                 <img src={chef} alt="Chef Aoki" />
                 <div className="top-food__team-content__message">

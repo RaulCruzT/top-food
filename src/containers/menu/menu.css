@@ -1,38 +1,45 @@
 .top-food__menu {
     padding-top: 3rem;
     padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.top-food__menu-title {
+.top-food__menu-container {
+    width: 1114px;
+}
+
+.top-food__menu-container__title {
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
     margin-bottom: 3rem;
 }
 
-.top-food__menu-cards {
+.top-food__menu-container__cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.top-foog__menu-cards__content {
+.top-food__menu-container__cards-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.top-foog__menu-cards__content-card {
+.top-food__menu-container__cards-content__card {
     max-width: 350px;
 }
 
-.top-foog__menu-cards__content-card__title {
+.top-food__menu-container__cards-content__card-title {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
 }
 
-.top-foog__menu-cards__content-card__text {
+.top-food__menu-container__cards-content__card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -49,7 +56,11 @@ img {
         padding-bottom: 2rem;
     }
 
-    .top-food__menu-title {
+    .top-food__menu-container {
+        width: 250px;
+    }
+
+    .top-food__menu-container__title {
         font-weight: 700;
         font-size: 22px;
         line-height: 34px;
@@ -58,23 +69,23 @@ img {
         text-align: center;
     }
 
-    .top-foog__menu-cards__content {
+    .top-food__menu-container__cards-content {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
     }
 
-    .top-foog__menu-cards__content-card {
+    .top-food__menu-container__cards-content__card {
         max-width: 250px;
     }
     
-    .top-foog__menu-cards__content-card__title {
+    .top-food__menu-container__cards-content__card-title {
         font-weight: 600;
         font-size: 18px;
         line-height: 26px;
     }
     
-    .top-foog__menu-cards__content-card__text {
+    .top-food__menu-container__cards-content__card-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
@@ -91,30 +102,34 @@ img {
         padding-bottom: 2rem;
     }
 
-    .top-food__menu-title {
+    .top-food__menu-container {
+        width: 632px;
+    }
+
+    .top-food__menu-container__title {
         font-weight: 700;
         font-size: 28px;
         line-height: 40px;
         margin-bottom: 3rem;
     }
 
-    .top-foog__menu-cards__content {
+    .top-food__menu-container__cards-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 
-    .top-foog__menu-cards__content-card {
+    .top-food__menu-container__cards-content__card {
         max-width: 300px;
     }
 
-    .top-foog__menu-cards__content-card__title {
+    .top-food__menu-container__cards-content__card-title {
         font-weight: 600;
         font-size: 18px;
         line-height: 26px;
     }
     
-    .top-foog__menu-cards__content-card__text {
+    .top-food__menu-container__cards-content__card-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
