@@ -2,7 +2,7 @@
 
 ## Description
 
-Top Food is a simple restaurant project designed and developed by [Raúl Cruz](https://github.com/RaulCruzT).
+Top Food is a responsive restaurant project designed and developed by [Raúl Cruz](https://github.com/RaulCruzT).
 
 ## Design
 
