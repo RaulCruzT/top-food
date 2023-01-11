@@ -1,0 +1,16 @@
+.top-food__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-food__logo-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* .top-food__logo  path {
+    fill: red;
+} */

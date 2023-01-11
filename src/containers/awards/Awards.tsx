@@ -1,4 +1,4 @@
-import Award from '../../components/award/Award';
+import { Award } from '../../components';
 import './awards.css';
 
 const Awards = () => {
