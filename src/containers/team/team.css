@@ -11,6 +11,10 @@
     gap: 16rem;
 }
 
+.top-food__team-content img {
+    max-width: 600px;
+}
+
 .top-food__team-content__message {
     width: 450px;
 }
@@ -34,6 +38,10 @@
         flex-direction: column-reverse;
         align-items: center;
         gap: 1rem;
+    }
+
+    .top-food__team-content img {
+        max-width: 250px;
     }
 
     .top-food__team-content__message {
@@ -62,6 +70,10 @@
         flex-direction: row;
         align-items: center;
         gap: 4rem;
+    }
+
+    .top-food__team-content img {
+        max-width: 350px;
     }
 
     .top-food__team-content__message {

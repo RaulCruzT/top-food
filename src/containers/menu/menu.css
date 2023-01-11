@@ -91,7 +91,7 @@ top-food__menu-container__cards-content__card img {
         line-height: 26px;
     }
 
-    top-food__menu-container__cards-content__card img {
+    .top-food__menu-container__cards-content__card img {
         max-width: 250px;
     }
 }
@@ -135,7 +135,7 @@ top-food__menu-container__cards-content__card img {
         line-height: 26px;
     }
 
-    top-food__menu-container__cards-content__card img {
+    .top-food__menu-container__cards-content__card img {
         max-width: 300px;
     }
 }
