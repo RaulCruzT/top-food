@@ -1,0 +1,26 @@
+.top-food__navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.top-food__navbar-container {
+    width: 1114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-food__navbar-container__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-food__navbar-container__logo-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
