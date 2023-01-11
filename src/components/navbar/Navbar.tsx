@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className="top-food__navbar-menu" style={{height: toggleMenu ? '100vh': 0}}>
                 {toggleMenu &&
-                    <Links />
+                    <Links close={() => setToggleMenu(false)} />
                 }
             </div>
         </div>
